@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	
+  <!-- 默认配置节点 -->
+  <default-config>
+      <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+      <property name="jdbcUrl">jdbc:oracle:thin:@127.0.0.1:1521:xe</property>
+      <property name="user">cm</property>
+      <property name="password">cm</property>
+      <!--当池中的连接不够时，一次创建多少个连接-->
+      <property name="acquireIncrement">1</property>
+      <!--初始时池中的连接-->
+      <property name="initialPoolSize">1</property>
+      <!--最大有多少个-->
+      <property name="maxPoolSize">1</property>
+      <!--最小有多少个-->
+      <property name="minPoolSize">1</property>
+  </default-config>
+ 
+  <!-- 根据名字返回对应配置 -->
+  <named-config name="oracle"> 
+     <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+     <property name="jdbcUrl">jdbc:oracle:thin:@127.0.0.1:1521:xe</property>
+     <property name="user">cm</property>
+     <property name="password">cm</property>
+  </named-config>
+  
+  <!-- 根据名字返回对应配置 -->
+  <named-config name="mysql"> 
+     <property name="driverClass">com.mysql.jdbc.Driver</property>
+     <property name="jdbcUrl">jdbc:mysql://localhost:3306/employee?characterEncoding=utf8</property>
+     <property name="user">root</property>
+     <property name="password">root</property>
+  </named-config>
+
+  <!-- 根据名字返回对应配置 -->
+  <named-config name="order">
+       <property name="driverClass">com.mysql.jdbc.Driver</property>
+       <property name="jdbcUrl">jdbc:mysql://localhost:3306/order?characterEncoding=utf8</property>
+       <property name="user">root</property>
+       <property name="password">root</property>
+  </named-config>
+</c3p0-config>
