@@ -66,7 +66,7 @@
             <div class="w3_info">
                 <h2>企业HR用户注册</h2>
                 <p>请输入信息注册</p>
-                <form action="#" method="post">
+                <form id="BossRegist" action="#" method="post">
                     <div class="input-group">
                         <span class="fa fa-name"></span>
                         <input id="username" type="text" placeholder="请输入用户名" required="">

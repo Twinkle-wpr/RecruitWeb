@@ -14,5 +14,11 @@ public class BossDao extends BaseDao<Boss> {
 
         return i;
     }
-
+    public Long SelectOne(String username)
+    {
+        //通过用户名查询是否存在该用户
+        String sql = "select count(*) from companyuser where username = ?";
+        Long o = (Long)this.getSingleValue(sql, username);
+        return o;
+    }
 }

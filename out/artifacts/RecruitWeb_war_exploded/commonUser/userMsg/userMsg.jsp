@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>普通用户修改信息</title>
+    <title>普通用户修改信息。。</title>
     <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="style.css" type="text/css" rel="stylesheet">
     <script src="../../js/jquery-2.2.3.min.js"></script>
