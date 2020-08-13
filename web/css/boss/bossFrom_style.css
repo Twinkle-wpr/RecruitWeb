@@ -1,0 +1,106 @@
+/*右侧注册登录表单*/
+.w3_info_boss {
+    width: 400px;
+}
+/*免费注册，获得高新！*/
+.w3_info_boss h2{
+	display: inline-block;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #60639D;
+    font-weight: 600;
+}
+.w3_info_boss p {
+    padding-bottom: 15px;
+	margin: 0;
+    color: #666;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    font-size: 16px;
+    font-weight: 400;
+}
+.w3_info_boss #username{
+	font-size: 15px;
+	color: #333;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 14px 10px;
+	width:93%;
+	display:inline-block;
+    box-sizing: border-box;
+   	border: none;
+    outline: none;
+    background: transparent;
+	font-family: 'Raleway', sans-serif;
+}
+/*邮箱输入框*/
+/*支持html5的浏览器会自动验证email域值的格式合法性。当输入的不是email格式的内容时，在支持html5的浏览器中提交该表单会出个提示说不是合法的email格式*/
+.w3_info_boss input[type="email"] {
+	font-size: 15px;
+	color: #333;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 14px 10px;
+	width:93%;
+	display:inline-block;
+    box-sizing: border-box;
+   	border: none;
+    outline: none;
+    background: transparent;
+	font-family: 'Raleway', sans-serif;
+}
+/*密码输入框*/
+.w3_info_boss input[type="Password"] {
+	font-size: 15px;
+	color: #333;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 14px 10px;
+	width:93%;
+	display:inline-block;
+    box-sizing: border-box;
+   	border: none;
+    outline: none;
+    background: transparent;
+	font-family: 'Raleway', sans-serif;
+}
+.w3_info_boss #phone{
+	font-size: 15px;
+	color: #333;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 14px 10px;
+	width:93%;
+	display:inline-block;
+    box-sizing: border-box;
+   	border: none;
+    outline: none;
+    background: transparent;
+	font-family: 'Raleway', sans-serif;
+}
+.w3_info_boss .input-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+	padding: 3px 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+}
+.w3_info_boss .btn-block {
+    background: #ff4040;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+	width: 50%;
+	margin-top: 30px;
+}
+.w3_info_boss p.account{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    line-height: 1.5em;
+    font-size: 15px;
+}
